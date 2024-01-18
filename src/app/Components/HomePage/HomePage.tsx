@@ -1,4 +1,4 @@
-const Home = () => {
+const HomePage = () => {
     return (
         <>
             {/* Slider Section */}
@@ -70,4 +70,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default HomePage;

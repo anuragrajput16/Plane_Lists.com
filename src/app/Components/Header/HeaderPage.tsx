@@ -1,4 +1,4 @@
-const Header = () => {
+const HeaderPage = () => {
     return (
         <div
           id="hs_cos_wrapper_widget_1600383188162"
@@ -273,4 +273,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default HeaderPage;

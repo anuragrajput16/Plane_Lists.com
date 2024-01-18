@@ -8,10 +8,12 @@ import './Assets/css/sr-base.css';
 import './Assets/css/stat2.css';
 import './Assets/css/style.css';
 
-import Header from './layout/Header';
+
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import Home from './Home';
-import AboutUs from './AboutUs';
+
+import HomePage from './app/Components/HomePage/HomePage';
+import { AboutUsPage } from './app/Components/AboutUs/AboutUsPage';
+import HeaderPage from './app/Components/Header/HeaderPage';
 
 function App() {
   return (
@@ -26,11 +28,11 @@ function App() {
         
     
 
-    <Header/>
+    <HeaderPage/>
       <BrowserRouter>
         <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/about-us" element={<AboutUs />} />     
+            <Route path="/" element={<HomePage/>}/>
+            <Route path="/about-us" element={<AboutUsPage/>} />     
         </Routes>
       </BrowserRouter>
      
