@@ -1,0 +1,18 @@
+.stats-wrapper h2 {
+    font-size: 3.2rem !important;
+    line-height: 4rem !important;
+    margin-bottom: 0
+}
+
+.stats-wrapper p {
+    font-size: 1rem !important
+}
+
+h2.heading:after {
+    border-bottom: 3px solid #f16722;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 100px
+}

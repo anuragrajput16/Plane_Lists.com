@@ -1,0 +1,279 @@
+/*********************************************************************
+	SR Nav Drpopdown 03 (global)
+*********************************************************************/
+.navbar-nav > .nav-item:not(.dropdown):after, .navbar-nav .nav-item.active:after {
+    background: #F16722 !important;
+}
+.top-bar ul li a {
+    color: #4D4F5C !important;
+    padding-right: .5rem !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+.navbar .navbar-nav .dropdown .dropdown-item, .navbar .navbar-nav .nav-link, .btn-wrapper.btn-primary-wrapper.d-xl-inline a {
+    font-size: 13px;
+    color: #ffffff;
+    font-family: Inter, sans-serif;
+}
+.btn-wrapper.btn-primary-wrapper.d-xl-inline a:hover {
+   background:#F16722;
+}
+.search, .show-search, .search svg {
+  color:white !important;
+}
+input.hs-search-field__input.form-control {
+    color: #ffffff;
+}
+.searchicon, #icon-search{
+  color:white;
+}
+.results-searchbox {
+  background: #EDF1F2;
+}
+.results-searchbox input {
+  margin: 10px 0;
+}
+/*********************************************************************
+	Homepage Video Hero
+*********************************************************************/
+#homeHero .btn-primary-wrapper a.cta_button {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 60px;
+    outline: none;
+    background-color: #F16722;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #C34C10;
+  line-height: 1em;
+}
+#homeHero .btn-primary-wrapper a.cta_button:hover {
+    background-color: #F16722;
+}
+#homeHero .btn-primary-wrapper a.cta_button:active {
+    background-color: #F16722;
+    box-shadow: 0 5px #C34C10;
+    transform: translateY(4px);
+}
+
+/*********************************************************************
+	Notification Header Styles
+*********************************************************************/
+
+.top-bar-text {
+    padding: 0.5rem 2rem;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+/*********************************************************************
+	Commong H2 Section Headers
+*********************************************************************/
+.section-heading {
+  font-weight:bold;
+}
+h2.section-heading:after, h1.h2:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    padding-top: 20px;
+    border-bottom: 3px solid #F16722;
+}
+/*********************************************************************
+	Common Hero Header
+*********************************************************************/
+.sr-hero-01 h1:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    padding-top: 20px;
+    border-bottom: 3px solid #F16722;
+}
+/*********************************************************************
+	Common Hero Button
+*********************************************************************/
+.sr-hero-01 .btn-primary-wrapper a.cta_button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 30px;
+    outline: none;
+    background-color: #F16722;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #C34C10;
+    line-height: 1em;
+}
+.sr-hero-01 .btn-primary-wrapper a.cta_button:hover {
+    background-color: #F16722;
+}
+.sr-hero-01 .btn-primary-wrapper a.cta_button:active {
+    background-color: #F16722;
+    box-shadow: 0 5px #C34C10;
+    transform: translateY(4px);
+}
+/*********************************************************************
+	Data Stats
+*********************************************************************/
+.stats-wrapper h2 {
+    font-size: 3.2rem !important;
+    line-height: 4rem !important;
+    margin-bottom: 0;
+}
+h2.heading:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    padding-top: 20px;
+    border-bottom: 3px solid #F16722;
+}
+/*********************************************************************
+	Pricing Page Styles
+*********************************************************************/
+h4.pricing-card-head:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    padding-top: 20px;
+    border-bottom: 3px solid #F16722;
+}
+.sr-cards-grid-02 .cards.row [class*="col-"] {
+    padding: 0;
+    border: 1rem solid transparent;
+}
+.sr-cards-grid-02 .card {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+    padding: 3.35rem 2.2rem !important;
+    border: 1px solid #e5e7ea !important;
+}
+.sr-cards-grid-02 .card:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.sr-cards-grid-02 .card-inner {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.sr-cards-grid-02 .card-inner .btn-wrapper {
+    margin-top: auto;
+}
+.sr-cards-grid-02 .card-inner .btn-wrapper {
+    margin-top: 1.63rem;
+}
+.sr-cards-grid-02 .card {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+@media (max-width: 768px) {
+    .sr-cards-grid-02 .heading br, .sr-cards-grid-02 .description br {
+        display: none;
+    }
+  img.navbar-brand-light, img.navbar-brand {
+    width: 200px !important;
+  }
+}
+
+/*********************************************************************
+	Footer Styles - SR Footer 01 (global)
+*********************************************************************/
+.sr-footer-01 .sr-footer-nav .hs-menu-depth-1 > a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.sr-footer-01 .sr-footer-nav .hs-menu-depth-1 > a:after {
+    content: "";
+    display: block;
+    margin: 0;
+    width: 50px;
+    padding-top: 10px;
+    border-bottom: 3px solid #F16722;
+}
+.sr-footer-01 .sr-footer-nav li a, .sr-footer-01 .sr-footer-nav p {
+    line-height: 1.3em !important;
+    font-size: 12px !important;
+}
+.socialFooter a {
+    color: #ffffff !important;
+    padding: 0 0 0 5px;
+}
+.footer-copyright span {
+    color: #f16722;
+    font-size: 16px;
+    padding: 0 10px;
+}
+@media (min-width: 992px) {
+    .sr-tabs-split-screen .pin.loaded.active {
+        width: 40% !important;
+    }
+} 
+/*********************************************************************
+	Conversational Form Styles
+*********************************************************************/
+.sr-conversational-form-01 form {
+    line-height: 1.5em!important;
+}
+
+/*********************************************************************
+	Blog Table Styles
+*********************************************************************/
+.blog-table {
+  width: 100%;
+  }
+.blog-table td {
+  padding: 5px;
+  font-size: 11px;
+  border: 1px solid #888888;
+}
+  
+  
+  
+/*********************************************************************
+	One Trust Override CSS
+*********************************************************************/
+#onetrust-consent-sdk #onetrust-accept-btn-handler, #onetrust-banner-sdk #onetrust-reject-all-handler {
+  background-color: #F16722!important;
+  border-color: #F16722!important;
+  color: #FFFFFF!important;
+  border-radius: 10px!important;
+}
+#onetrust-consent-sdk #onetrust-pc-btn-handler, #onetrust-consent-sdk #onetrust-pc-btn-handler.cookie-setting-link {
+  color: #F16722!important;
+  border-color: #F16722!important;
+  background-color: #FFFFFF;
+}
+  #onetrust-banner-sdk.ot-bnr-w-logo .ot-bnr-logo {
+  padding: 20px!important;
+}
+  #onetrust-banner-sdk.ot-bnr-w-logo #onetrust-policy {
+  margin-left: 100px!important;
+} 
+#ot-sdk-btn-floating .ot-floating-button__front {
+ background-color: #F16722 !important;
+}
+#ot-sdk-btn-floating .ot-floating-button__back {
+   background-color: #F16722 !important;
+}
